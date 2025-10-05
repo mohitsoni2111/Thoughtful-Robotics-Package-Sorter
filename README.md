@@ -52,3 +52,18 @@ def sort(width, height, length, mass):
         return "SPECIAL"
     else:
         return "STANDARD"
+```
+
+## How to run
+1. Clone the repo
+```
+git clone https://github.com/mohitsoni2111/Thoughtful-Robotics-Package-Sorter.git
+```
+2. Run the sorter script
+```
+python sorter.py
+```
+3. Run the test cases
+```
+python -m unittest test_sorter.py
+```
